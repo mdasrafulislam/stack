@@ -1,4 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-&copy; Md Asraful Islam 2014
+&copy; stack 2014

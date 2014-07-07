@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
-	<persistence-unit name="teststore">
-		<class>it.unibz.teststore.entity.User</class>
-		<class>it.unibz.teststore.entity.Role</class>
-		<class>it.unibz.teststore.entity.Blog</class>
-		<class>it.unibz.teststore.entity.Item</class>
-		<class>it.unibz.teststore.entity.Project</class>
-		<class>it.unibz.teststore.entity.Build</class>
-		<class>it.unibz.teststore.entity.TestCase</class>
-		<class>it.unibz.teststore.entity.History</class>
-		<class>it.unibz.teststore.entity.Technique</class>
-		<class>it.unibz.teststore.entity.PrioritizationJob</class>
-		<class>it.unibz.teststore.entity.PreCalculation</class>
+	<persistence-unit name="stack">
+		<class>it.unibz.stack.entity.User</class>
+		<class>it.unibz.stack.entity.Role</class>
+		<class>it.unibz.stack.entity.Blog</class>
+		<class>it.unibz.stack.entity.Item</class>
 	</persistence-unit>
 </persistence>

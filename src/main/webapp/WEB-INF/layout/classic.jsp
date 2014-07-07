@@ -44,7 +44,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<spring:url value="/" />">teststore</a>
+            <a class="navbar-brand" href="<spring:url value="/" />">stack</a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -53,9 +53,7 @@
               	<li class="${current == 'users' ? 'active' : ''}"><a href="<spring:url value="/users.html" />">users</a></li>
               	
               </security:authorize>
-              <security:authorize access="isAuthenticated()">
-              	<li class="${current == 'project' ? 'active' : ''}"><a href="<spring:url value="/project.html" />">project</a></li>
-              </security:authorize>
+              
               <li class="${current == 'register' ? 'active' : ''}"><a href="<spring:url value="/register.html" />">register</a></li>
               <security:authorize access="! isAuthenticated()">
 	              <li class="${current == 'login' ? 'active' : ''}"><a href="<spring:url value="/login.html" />">login</a></li>
