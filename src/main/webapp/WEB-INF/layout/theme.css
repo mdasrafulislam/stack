@@ -1,0 +1,92 @@
+#background{
+   width:960px;
+   height:1080px;
+   background-image: url('/WEB-INF/layout/images/back_image.jpg');
+   display: block;
+   margin: 0 auto;
+   background-repeat:repeat-y;
+   border:1px solid black;
+}
+
+#top_border{
+width:770px;
+height:54px;
+background-image: url('/WEB-INF/layout/images/top_border.png');
+background-repeat:repeat-x;
+margin:0px 100px 0px 95px;
+}
+
+#logo{
+width:770px;
+height:114px;
+margin:0px 100px 0px 95px;
+}
+
+
+#logo_place{
+width:257px;
+height:114px;
+background-image: url('/WEB-INF/layout/images/logo.png');
+float:left;
+}
+
+#logo_place_next{
+width:513px;
+height:114px;
+background-image: url('/WEB-INF/layout/images/logo_back.png');
+background-repeat:repeat-x;
+float:left;
+}
+
+
+#main_body{
+clear:both;
+margin:0px 100px 0px 95px;
+width:770px;
+height: 850px;
+}
+
+.button_css{
+ float:left;
+ display:block;
+ margin:20px 0px 5px 20px;
+ text-align:center;
+ text-decoration:none;
+ color:#49BAF4;
+ font-size:20px;
+ font-weight: bold;
+}
+
+
+.button_css_login{
+ float:left;
+ display:block;
+ margin:20px 0px 5px 240px;
+ text-align:center;
+ text-decoration:none;
+ color:#49BAF4;
+ font-size:20px;
+ font-weight: bold;
+
+ 
+}
+
+.button_css a {
+text-decoration:none;
+}
+
+.button_css_login a{
+text-decoration:none;
+} 
+
+a:link {color:#49BAF4;}
+a:visited {color:#49BAF4;} 
+a:hover {color:#FF00FF;} 
+a:active {color:#0000FF;}
+
+
+#footer{
+clear:both;
+
+}
+

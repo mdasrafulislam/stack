@@ -4,10 +4,10 @@
 <%@ include file="../layout/taglib.jsp"%>
 
 <!-- Button trigger modal -->
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  New blog
-</button>
 
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  New Tutorial
+</button>
 
 <form:form commandName="blog" cssClass="form-horizontal blogForm">
 <!-- Modal -->
@@ -16,7 +16,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">New blog</h4>
+        <h4 class="modal-title" id="myModalLabel">New Tutorial</h4>
       </div>
       <div class="modal-body">
 
